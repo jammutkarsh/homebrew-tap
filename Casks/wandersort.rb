@@ -4,21 +4,21 @@ cask "wandersort" do
 
   on_macos do
     on_arm do
-      sha256 "fde6182e41baa51a6dd7a29f8d3397e474817b5795c0c0d22c81f1bcbb58749e"
+      sha256 "5989c2ae713239d7fe4c29fbb7348d80f3b68fb3f60742658f0c0c31fb213304"
       url "https://github.com/jammutkarsh/wandersort/releases/download/v#{version}/wandersort_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "55b1b171837e866220f56358e6699514b5f027420acd0f8e07e1a645a6b22dde"
+      sha256 "4e96c563cb2bd29c36b560c083523d2787cc8096d28d0a94b0b376eaf555fe7c"
       url "https://github.com/jammutkarsh/wandersort/releases/download/v#{version}/wandersort_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "2de95c4a995f6d60190857947762843903c9aaa098b536d61c5be1b932881e9d"
+      sha256 "8bb1a609bcf0e8cc00884f2422d47ff43868592fab1d6f863de5621e9c1c4baa"
       url "https://github.com/jammutkarsh/wandersort/releases/download/v#{version}/wandersort_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9972b20ce6934b80ee442258456f057447652b45d5205614b0dd3e85c2b7aad3"
+      sha256 "4feade5ad83a45c7544b39615f11952284d164a21480d57fa0fb6e4644eb8055"
       url "https://github.com/jammutkarsh/wandersort/releases/download/v#{version}/wandersort_#{version}_linux_amd64.tar.gz"
     end
   end
